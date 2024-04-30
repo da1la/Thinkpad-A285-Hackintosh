@@ -1,0 +1,1 @@
+# Thinkpad-A285-Hackintosh
