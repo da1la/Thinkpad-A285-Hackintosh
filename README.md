@@ -6,7 +6,7 @@
 
 | Component             | Detail                  |
 |-----------------------|-------------------------|
-| **CPU**               | Ryzen 5 2500U       |
+| **CPU**               | Ryzen 5 2500U           |
 | **GPU**               | Vega 8                  |
 | **RAM**               | 16GB                    |
 | **Motherboard**       | 20UDCTO1WW              |
@@ -21,8 +21,8 @@
 
 ## 💻 Supported macOS Versions
 
-- **Sonoma**: Installs, crash on first setup.
-- **Ventura**: Potential support, testing in progress.
+- **Sonoma**: Installs, fully works
+- **Ventura**: Potential support, not installed.
 - **Monterey**: Not tested and supported.
 
 <details>
@@ -31,19 +31,17 @@
 - **WIFI**
 - **Trackpad**
 - **Battery Status**
-- **Backlight
+- **Backlight**
+- **IGPU**
+- **Fan Control**: Full YogaSMC EC Access.
   
 </details>
 
 <details>
 <summary>❓ Not Tested</summary>
 
-- **BT**: 
 - **FindMy**
-- **Fan Control**: Full YogaSMC EC Access.
-- **Camera**
-- **IGPU**
-- **Dual Boot with Windows**
+- **Dual Boot with Windows** i use arch BTW
 - *...and more!*
 
 </details>
@@ -51,9 +49,10 @@
 <details>
 <summary>❌ Known Issues</summary>
 
+- **Camera**: also idk
+- **BT**: idk why it's not working
 - **Airdrop**: Not functioning due to Intel cards not being native, works only on Broadcom cards.
 - **Screen Mirroring**: Not available unless using a paid service such as airserver.
-- **Brightness**: Adjustment is too rapid and therefore stops at a certain point.
 
 </details>
 
