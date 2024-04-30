@@ -34,6 +34,9 @@
 - **Backlight**
 - **IGPU**
 - **Fan Control**: Full YogaSMC EC Access.
+- **FN keys**
+- **Audio**
+- *...and more!*
   
 </details>
 
@@ -41,16 +44,15 @@
 <summary>❓ Not Tested</summary>
 
 - **FindMy**
-- **Dual Boot with Windows** i use arch BTW
-- *...and more!*
+- **Dual Boot with Windows**: i use arch BTW
 
 </details>
 
 <details>
 <summary>❌ Known Issues</summary>
 
-- **Camera**: also idk
-- **BT**: idk why it's not working
+- **Camera**: idk why it's not working
+- **BT**: also idk
 - **Airdrop**: Not functioning due to Intel cards not being native, works only on Broadcom cards.
 - **Screen Mirroring**: Not available unless using a paid service such as airserver.
 
