@@ -1,6 +1,6 @@
 # ThinkPad A285 Hackintosh
 
- **Thanks to Collin8000 for T14 Gen1 /Efi folder which used as base for this setup**
+ **Thanks to Collin8000 for T14 Gen1 Efi folder which used as base for this setup**
 
 ## 📝 Specifications
 
@@ -44,13 +44,6 @@
 </details>
 
 <details>
-<summary>❓ Not Tested</summary>
-
-- **FindMy**
-
-</details>
-
-<details>
 <summary>❌ Known Issues</summary>
 
 - **sleep**: I'm working about that
@@ -69,7 +62,7 @@ After installing macOS, it's recommended to adjust certain settings for optimal 
 
 </details>
 
-
+<details>
 <summary>⚙️ BIOS Settings (Mandatory)</summary>
 
 To ensure your Hackintosh functions correctly, configure the following mandatory BIOS settings:
@@ -87,6 +80,7 @@ To ensure your Hackintosh functions correctly, configure the following mandatory
 - UEFI/Legacy Boot -> UEFI Only
 
 These settings are crucial for the proper operation of your Hackintosh system.
+</details>
 
 </details>
 
@@ -96,22 +90,18 @@ These settings are crucial for the proper operation of your Hackintosh system.
 
 Potentially it can work on that laptops:
 
-Thinkpad A485
-Thinkpad X395
-Thinkpad E485
-Thinkpad E585
-IdeaPad 330-15ARR
-IdeaPad 720S-13ARR
-Yoga 530-14ARR
+- Thinkpad A485
+- Thinkpad X395 (not sure, better see [That project](https://github.com/adam-ht/Lentosh))
+- Thinkpad E485
+- Thinkpad E585
+- IdeaPad 330-15ARR
+- IdeaPad 720S-13ARR
+- Yoga 530-14ARR
 
-**BUT** it'll require USB remapping
-I've used this guide
-https://www.reddit.com/r/hackintosh/comments/ta1ef4/guide_easy_usb_mapping_with_usbtoolbox_on_windows/
-
-## 💡 Tips
-
-- For troubleshooting, refer to the `ISSUES` tab.
-- Contributions are welcome! See `CONTRIBUTING.md` for how to get started.
+**BUT** it'll require USB remapping **AND** generating ACPI tables.
+I've used this guides:
+- https://www.reddit.com/r/hackintosh/comments/ta1ef4/guide_easy_usb_mapping_with_usbtoolbox_on_windows/
+- https://chefkissinc.github.io/guide/gathering-files/acpi
 
 ## 🤝 Contributions
 
@@ -121,9 +111,9 @@ Feel free to fork, star, and contribute to this project. Every bit of help is ap
 
 A shoutout to the Dortania guide and the AMD OSX Discord community for their support. And this would not have been possible without NootedRed!
 
-## ⚠️ Disclaimer
+## ⚠️ Very important
 
-This is a community-driven project for educational purposes. Not affiliated with Lenovo.
+I use Arch BTW
 
 ## Credits
 
