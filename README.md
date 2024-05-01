@@ -16,7 +16,7 @@
 | **Touchpad Devices**  | Synaptics Touchpad      |
 | **BIOS Version**      | 1.46                    |
 | **Storage**           | Samsung 256gb NVME      |
-| **OpenCore Version**  | 0.99                    |
+| **OpenCore Version**  | 0.9.9                    |
 | **Device**            | Thinkpad A285           |
 
 ## 💻 Supported macOS Versions
@@ -36,6 +36,9 @@
 - **Fan Control**: Full YogaSMC EC Access.
 - **FN keys**
 - **Audio**
+- **Camera**: fixed after USB mapping
+- **BT**: also fixed
+- **Dual Boot with Windows**: just for USB remap
 - *...and more!*
   
 </details>
@@ -44,15 +47,13 @@
 <summary>❓ Not Tested</summary>
 
 - **FindMy**
-- **Dual Boot with Windows**: i use arch BTW
 
 </details>
 
 <details>
 <summary>❌ Known Issues</summary>
 
-- **Camera**: idk why it's not working
-- **BT**: also idk
+- **sleep**: I'm working about that
 - **Airdrop**: Not functioning due to Intel cards not being native, works only on Broadcom cards.
 - **Screen Mirroring**: Not available unless using a paid service such as airserver.
 
@@ -63,7 +64,7 @@
 
 After installing macOS, it's recommended to adjust certain settings for optimal performance:
 
-- **iGPU Memory**: Increase the iGPU memory allocation in your BIOS settings to at least 1GB. For better performance with demanding applications, consider setting it to 2GB.
+- **iGPU Memory**: Increase the iGPU memory allocation in your BIOS settings to at least 1GB.
 - **YogaSMC app**: Get more control over your system, Fan Control, Backlight, 
 
 </details>
@@ -93,7 +94,19 @@ These settings are crucial for the proper operation of your Hackintosh system.
 
 ## 🔑 Important Information
 
-Please note that individual results may vary. The configurations and performance can differ based on your hardware and software environments. Specifically, I have not replaced my trackpad with a glass replacement, which may not be the case for your setup. This could lead to differences in trackpad issues and performance. Use this guide as a starting point and tailor the solutions to fit your specific needs.
+Potentially it can work on that laptops:
+
+Thinkpad A485
+Thinkpad X395
+Thinkpad E485
+Thinkpad E585
+IdeaPad 330-15ARR
+IdeaPad 720S-13ARR
+Yoga 530-14ARR
+
+**BUT** it'll require USB remapping
+I've used this guide
+https://www.reddit.com/r/hackintosh/comments/ta1ef4/guide_easy_usb_mapping_with_usbtoolbox_on_windows/
 
 ## 💡 Tips
 
@@ -114,6 +127,7 @@ This is a community-driven project for educational purposes. Not affiliated with
 
 ## Credits
 
+- **[Collin8000](https://github.com/Collin8000/Thinkpad-T14-Gen-1-Amd-Hackintosh)**: For Thinkpad T14 G1 efi folder
 - **[Apple](https://github.com/apple)**: For macOS.
 - **[Dortania Guide](https://dortania.github.io/getting-started/)**: For their invaluable detailed OpenCore guide.
 - **[acidanthera](https://github.com/acidanthera)**: For their OpenCore bootloader and essential kexts that make running macOS on X86 possible.
