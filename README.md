@@ -1,6 +1,6 @@
 # ThinkPad A285 Hackintosh
 
- ** I've found that this repo was cloned on the pudn.com, so, I should say that this config made by da1la on github**
+ ** I've found that this repo was cloned on the pudn.com by "sh-1993", so, I should say that this config made by da1la on github**
 
 ## 📝 Specifications
 
@@ -116,7 +116,7 @@ A shoutout to the Dortania guide and the AMD OSX Discord community for their sup
 I use Arch BTW
 
 ## Credits
-
+- **[shipasnake](https://githinb.com/da1la)**: (me) For creating that project
 - **[Collin8000](https://github.com/Collin8000/Thinkpad-T14-Gen-1-Amd-Hackintosh)**: For Thinkpad T14 G1 efi folder
 - **[Apple](https://github.com/apple)**: For macOS.
 - **[Dortania Guide](https://dortania.github.io/getting-started/)**: For their invaluable detailed OpenCore guide.
