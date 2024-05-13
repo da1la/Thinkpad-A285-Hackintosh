@@ -1,6 +1,6 @@
 # ThinkPad A285 Hackintosh
 
- **Thanks to Collin8000 for T14 Gen1 Efi folder which used as base for this setup**
+ ** I've found that this repo was cloned on the pudn.com, so, I should say that this config made by da1la on github**
 
 ## 📝 Specifications
 
