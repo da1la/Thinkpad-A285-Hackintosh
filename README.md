@@ -1,6 +1,6 @@
 # ThinkPad A285 Hackintosh
 
- ** I've found that this repo was cloned on the pudn.com by "sh-1993", so, I should say that this config made by da1la on github**
+ **I've found that this repo was cloned on the pudn.com by "sh-1993", so, I should say that this config made by da1la on github**
 
 ## 📝 Specifications
 
@@ -9,14 +9,14 @@
 | **CPU**               | Ryzen 5 2500U           |
 | **GPU**               | Vega 8                  |
 | **RAM**               | 16GB                    |
-| **Motherboard**       | 20UDCTO1WW              |
+| **Motherboard**       | 20MXS07A00              |
 | **Audio Codec**       | ALC257                  |
 | **Ethernet Card**     | RTL8111                 |
 | **Wifi/BT Card**      | Intel AC 9260           |
 | **Touchpad Devices**  | Synaptics Touchpad      |
-| **BIOS Version**      | 1.46                    |
-| **Storage**           | Samsung 256gb NVME      |
-| **OpenCore Version**  | 0.9.9                    |
+| **BIOS Version**      | 1.47                    |
+| **Storage**           | Intel 256gb NVME        |
+| **OpenCore Version**  | 0.9.9                   |
 | **Device**            | Thinkpad A285           |
 
 ## 💻 Supported macOS Versions
@@ -46,6 +46,7 @@
 <details>
 <summary>❌ Known Issues</summary>
 
+- **WWAN**: i don't have one, and mac os not support that anyway
 - **sleep**: I'm working about that
 - **Airdrop**: Not functioning due to Intel cards not being native, works only on Broadcom cards.
 - **Screen Mirroring**: Not available unless using a paid service such as airserver.
